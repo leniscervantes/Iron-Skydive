@@ -27,6 +27,7 @@ h1 {
     text-transform: uppercase;
 }
 
+
 h2 {
     font-size: 5em;
     text-align: center;
@@ -34,11 +35,13 @@ h2 {
     line-height: 4em;
 }
 
+
 h3 {
     font-size: 4.2em;
     text-align: center;
     line-height: 1em;
 }
+
 
 h4 {
     font-size: 1.5em;
@@ -46,7 +49,39 @@ h4 {
     line-height: 1em;
 }
 
+
 h5 {
     font-size: 1.2em;
     line-height: 1em;
+}
+
+
+.nav-bar {
+    background-color: rgb(25, 33, 41);
+}
+
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+
+.header {
+    background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header h2 {
+    color: white;
+    text-shadow: #020819 8px -20px 9px;
+}
+
+
+.quote {
+    font-size: 2.5em;
 }
